@@ -1,5 +1,7 @@
 <?php
 require_once dirname(__DIR__) . '/config/init.php';
-//echo $_SERVER['QUERY_STRING'];
-new \engine\App();
+require_once LIBS . '/functions.php';
 
+$app = new \engine\App();
+
+debug($app::$app->getProperties());
