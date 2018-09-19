@@ -4,4 +4,6 @@ require_once LIBS . '/functions.php';
 
 $app = new \engine\App();
 
-debug($app::$app->getProperties());
+//debug($app::$app->getProperties());
+
+//throw new Exception('404', 400);

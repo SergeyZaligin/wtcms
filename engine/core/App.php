@@ -24,8 +24,10 @@ class App
         session_start();
         // Reestr
         self::$app = Registry::instance();
-        
+        // add params in reestr
         $this->getParams();
+        // error handler exception
+        new ErrorHandler();
     }
     
     /**
