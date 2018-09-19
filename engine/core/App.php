@@ -28,6 +28,8 @@ class App
         $this->getParams();
         // error handler exception
         new ErrorHandler();
+        // routing
+        Router::dispatch($query);
     }
     
     /**

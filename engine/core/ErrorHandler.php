@@ -28,7 +28,7 @@ class ErrorHandler
      * 
      * @param object exception $e
      */
-    public function exceptionHandler(\Exception $e): void
+    public function exceptionHandler($e): void
     {
         $this->logErrors($e->getMessage(), $e->getFile(), $e->getLine());
         $this->displayError("Исключение", $e->getMessage(), $e->getFile(), $e->getLine(), $e->getCode());

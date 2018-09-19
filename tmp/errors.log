@@ -10,4 +10,14 @@
  ================= 
  [2018-09-19 12:15:51] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 9
  ================= 
+ [2018-09-19 13:32:01] | Текст ошибки: Class 'wcms\Router' not found | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 7
+ ================= 
+ [2018-09-19 13:32:31] | Текст ошибки: Class 'wcms\Router' not found | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 7
+ ================= 
+ [2018-09-19 13:32:37] | Текст ошибки: Class 'wcms\Router' not found | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 7
+ ================= 
+ [2018-09-19 13:35:37] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
+ [2018-09-19 13:36:54] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
  
