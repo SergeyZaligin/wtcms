@@ -16,6 +16,9 @@ class App
      */
     public static $app;
     
+    /**
+     * Constructor App
+     */
     public function __construct() 
     {
         // Get query string
