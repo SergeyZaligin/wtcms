@@ -66,4 +66,10 @@
  ================= 
  [2018-09-21 13:30:26] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
  ================= 
+ [2018-09-21 13:31:48] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
+ [2018-09-21 13:33:45] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
+ [2018-09-21 13:34:14] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
  

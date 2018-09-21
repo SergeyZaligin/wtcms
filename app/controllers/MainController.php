@@ -1,7 +1,7 @@
 <?php
 
 namespace app\controllers;
-
+use \RedBeanPHP\R as R;
 /**
  * Description of MainController
  *
