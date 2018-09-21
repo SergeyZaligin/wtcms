@@ -32,7 +32,7 @@ class App
         // error handler exception
         new ErrorHandler();
         // routing
-        Router::dispatch($query);
+        Router::dispatch((string)$query);
     }
     
     /**
