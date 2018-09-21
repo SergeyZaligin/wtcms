@@ -108,4 +108,6 @@
  ================= 
  [2018-09-21 14:01:19] | Текст ошибки: Не найден вид E:\OSPanel\domains\wtcms.loc/app/views/User/logout.php | Файл E:\OSPanel\domains\wtcms.loc\engine\core\base\View.php | Строка 100
  ================= 
+ [2018-09-21 14:02:06] | Текст ошибки: Class 'engine\base\Validator' not found | Файл E:\OSPanel\domains\wtcms.loc\engine\core\base\Model.php | Строка 63
+ ================= 
  

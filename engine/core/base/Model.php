@@ -3,6 +3,7 @@
 namespace engine\base;
 
 use engine\Database;
+use Valitron\Validator;
 
 /**
  * Class Model
