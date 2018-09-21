@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use engine\base\Controller;
+use app\models\AppModel;
 
 /**
  * Description of AppController
@@ -12,8 +13,10 @@ use engine\base\Controller;
 class AppController extends Controller
 {
 
-    public function __construct() 
+    public function __construct($route) 
     {
+        parent::__construct($route);
+        new AppModel();
         
     }
 

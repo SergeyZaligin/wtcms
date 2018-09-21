@@ -2,6 +2,8 @@
 
 namespace engine\base;
 
+use engine\Database;
+
 /**
  * Description of Model
  *
@@ -52,7 +54,7 @@ abstract class Model
     
     public function __construct() 
     {
-        Db::instance();
+        Database::instance();
     }
 
 

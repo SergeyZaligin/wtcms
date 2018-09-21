@@ -7,7 +7,7 @@ namespace app\controllers;
  *
  * @author Sergey
  */
-class MainController 
+class MainController extends AppController
 {
 
     public function indexAction() 

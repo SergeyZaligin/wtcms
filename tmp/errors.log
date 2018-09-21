@@ -50,4 +50,18 @@
  ================= 
  [2018-09-21 12:59:05] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
  ================= 
+ [2018-09-21 13:19:53] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
+ ================= 
+ [2018-09-21 13:21:18] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
+ ================= 
+ [2018-09-21 13:23:11] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
+ ================= 
+ [2018-09-21 13:23:33] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 59
+ ================= 
+ [2018-09-21 13:26:44] | Текст ошибки: Class 'app\controllers\AppModel' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\AppController.php | Строка 18
+ ================= 
+ [2018-09-21 13:27:20] | Текст ошибки: Class 'engine\base\Db' not found | Файл E:\OSPanel\domains\wtcms.loc\engine\core\base\Model.php | Строка 55
+ ================= 
+ [2018-09-21 13:28:12] | Текст ошибки: Контроллер app\controllers\UserController не найден | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 63
+ ================= 
  
