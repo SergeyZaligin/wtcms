@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace app\controllers;
 
@@ -17,7 +17,6 @@ class AppController extends Controller
     {
         parent::__construct($route);
         new AppModel();
-        
     }
 
 }

@@ -1,9 +1,9 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace engine\base;
 
 /**
- * Description of View
+ * Class View
  *
  * @author Sergey
  */
@@ -62,7 +62,7 @@ class View
      * 
      * @param array $route
      */
-    public function __construct($route, $layout = '', $view = '', $meta) 
+    public function __construct($route, $layout = '', $view = '', $meta)
     {
         $this->route = $route;
         $this->controller = $route['controller'];
@@ -70,6 +70,7 @@ class View
         $this->view = $view;
         $this->prefix = $route['prefix'];
         $this->meta = $meta;
+        
         if (false === $layout) {
             $this->layout = false;
         } else {
@@ -77,16 +78,20 @@ class View
         }
     }
     /**
+     * Render view
      * 
      * @param mixed $data
      * @throws \Exception
+     * @return void
      */
-    public function render($data) 
+    public function render($data): void
     {
         if (is_array($data)) {
             extract($data);
         }
+        
         $viewFile = APP . '/views/' . $this->prefix . $this->controller . '/' . $this->view . '.php';
+        
         if (is_file($viewFile)) {
             ob_start();
             require_once $viewFile;

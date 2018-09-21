@@ -72,4 +72,8 @@
  ================= 
  [2018-09-21 13:34:14] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
  ================= 
+ [2018-09-21 13:48:21] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:50:04] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
  

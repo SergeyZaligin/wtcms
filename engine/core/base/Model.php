@@ -1,22 +1,49 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace engine\base;
 
 use engine\Database;
 
 /**
- * Description of Model
+ * Class Model
  *
  * @author Sergey
  */
 abstract class Model 
 {
-
+    /**
+     * Attribute model
+     * 
+     * @var array
+     */
     public $attributes = [];
+    /**
+     * Errors validation
+     * 
+     * @var array
+     */
     public $errors = [];
+    /**
+     * Rules validation
+     * 
+     * @var array
+     */
     public $rules = [];
     
-    public function load($data) 
+    /**
+     * Constructor Model
+     */
+    public function __construct() 
+    {
+        Database::instance();
+    }
+    
+    /**
+     * Load data
+     * 
+     * @param array $data
+     */
+    public function load(array $data): void
     {
         foreach ($this->attributes as $name => $value) {
             if (isset($data[$name])) {
@@ -25,7 +52,13 @@ abstract class Model
         }
     }
     
-    public function validate($data) 
+    /**
+     * Validation data
+     * 
+     * @param array $data
+     * @return boolean
+     */
+    public function validate(array $data): bool 
     {
         $v = new Validator($data);
         $v->rules($this->rules);
@@ -38,7 +71,10 @@ abstract class Model
         }
     }
     
-    public function getErrors() 
+    /**
+     * Get all errors
+     */
+    public function getErrors(): void
     {
         $errors = '<ul>';
         foreach ($this->errors as $error) {
@@ -51,11 +87,4 @@ abstract class Model
         $errors .= '</ul>';
         $_SESSION['validate_errors'] = $errors;
     }
-    
-    public function __construct() 
-    {
-        Database::instance();
-    }
-
-
 }

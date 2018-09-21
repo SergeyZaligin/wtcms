@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace engine;
 
@@ -18,7 +18,7 @@ class Database
      * 
      * @throws \Exception
      */
-    public function __construct() 
+    public function __construct()
     {
         $db = require_once CONF . '/config_db.php';
         R::setup( "mysql:host={$db['host']};dbname={$db['dbname']}",

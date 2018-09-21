@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace engine\base;
 
@@ -77,7 +77,7 @@ abstract class Controller
      * 
      * @return void
      */
-    public function getView() 
+    public function getView(): void
     {
         $viewObject = new View($this->route, $this->layout, $this->view, $this->meta);
         $viewObject->render($this->data);
@@ -89,7 +89,7 @@ abstract class Controller
      * @param mixed  $data
      * @return void
      */
-    public function setData($data)
+    public function setData($data): void
     {
         $this->data = $data;
     }
@@ -102,7 +102,7 @@ abstract class Controller
      * @param type $description
      * @return void
      */
-    public function setMeta($title, $description, $keywords)
+    public function setMeta($title, $description, $keywords): void
     {
         $this->meta['title'] = $title;
         $this->meta['description'] = $description;
