@@ -64,4 +64,6 @@
  ================= 
  [2018-09-21 13:28:12] | Текст ошибки: Контроллер app\controllers\UserController не найден | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 63
  ================= 
+ [2018-09-21 13:30:26] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
  
