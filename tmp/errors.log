@@ -122,4 +122,8 @@
  ================= 
  [2018-09-23 11:15:48] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/wtcms.loc/engine/core/Router.php | Строка 66
  ================= 
+ [2018-09-23 11:27:23] | Текст ошибки: Return value of engine\libs\Pagination::getCountPages() must be of the type integer, float returned | Файл /opt/lampp/htdocs/wtcms.loc/engine/core/libs/Pagination.php | Строка 97
+ ================= 
+ [2018-09-23 11:28:08] | Текст ошибки: Return value of engine\libs\Pagination::getCountPages() must be of the type integer, float returned | Файл /opt/lampp/htdocs/wtcms.loc/engine/core/libs/Pagination.php | Строка 97
+ ================= 
  
