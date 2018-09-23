@@ -16,6 +16,9 @@ class App
      */
     public static $app;
     
+    /**
+     * Constructor App
+     */
     public function __construct() 
     {
         // Get query string
@@ -29,7 +32,7 @@ class App
         // error handler exception
         new ErrorHandler();
         // routing
-        Router::dispatch($query);
+        Router::dispatch((string)$query);
     }
     
     /**

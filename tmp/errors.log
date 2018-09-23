@@ -20,4 +20,94 @@
  ================= 
  [2018-09-19 13:36:54] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
  ================= 
+ [2018-09-19 13:53:03] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
+ [2018-09-19 13:53:10] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
+ [2018-09-21 12:28:39] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
+ [2018-09-21 12:28:39] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
+ [2018-09-21 12:50:01] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:50:01] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-21 12:51:05] | Текст ошибки: Argument 1 passed to engine\Router::dispatch() must be of the type array, string given, called in E:\OSPanel\domains\wtcms.loc\engine\core\App.php on line 35 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 43
+ ================= 
+ [2018-09-21 12:51:49] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:52:12] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type array, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:52:46] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:53:45] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:54:22] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:56:32] | Текст ошибки: Контроллер app\controllers\MainController не найден | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 12:58:17] | Текст ошибки: Метод app\controllers\MainController::indexAction не найден | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 60
+ ================= 
+ [2018-09-21 12:59:05] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
+ ================= 
+ [2018-09-21 13:19:53] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
+ ================= 
+ [2018-09-21 13:21:18] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
+ ================= 
+ [2018-09-21 13:23:11] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
+ ================= 
+ [2018-09-21 13:23:33] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 59
+ ================= 
+ [2018-09-21 13:26:44] | Текст ошибки: Class 'app\controllers\AppModel' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\AppController.php | Строка 18
+ ================= 
+ [2018-09-21 13:27:20] | Текст ошибки: Class 'engine\base\Db' not found | Файл E:\OSPanel\domains\wtcms.loc\engine\core\base\Model.php | Строка 55
+ ================= 
+ [2018-09-21 13:28:12] | Текст ошибки: Контроллер app\controllers\UserController не найден | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 13:30:26] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
+ [2018-09-21 13:31:48] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
+ [2018-09-21 13:33:45] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
+ [2018-09-21 13:34:14] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
+ [2018-09-21 13:48:21] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:50:04] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:51:18] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:54:11] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:54:29] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-21 13:55:35] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:56:02] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:56:15] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:56:40] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:56:56] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:57:54] | Текст ошибки: Call to undefined function engine\string() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\App.php | Строка 35
+ ================= 
+ [2018-09-21 13:58:51] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:59:01] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:59:18] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:59:39] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:59:55] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 14:00:33] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 82
+ ================= 
+ [2018-09-21 14:01:19] | Текст ошибки: Не найден вид E:\OSPanel\domains\wtcms.loc/app/views/User/logout.php | Файл E:\OSPanel\domains\wtcms.loc\engine\core\base\View.php | Строка 100
+ ================= 
+ [2018-09-21 14:02:06] | Текст ошибки: Class 'engine\base\Validator' not found | Файл E:\OSPanel\domains\wtcms.loc\engine\core\base\Model.php | Строка 63
+ ================= 
  
