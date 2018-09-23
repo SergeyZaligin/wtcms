@@ -3,47 +3,62 @@
 namespace engine;
 
 /**
- * Description of Cache
+ * Class Cache
  *
  * @author sergey
  */
 class Cache 
 {
-    use TSingletone;
+    use TraitSingletone;
 
     /**
+     * Set cache
      * 
      * @param string $key - unique name file
-     * @param string $data
+     * @param mixed $data
      * @param string $seconds
      * @return boolean
      */
-    public function set($key, $data, $seconds = 3600){
-        if($seconds){
+    public function set($key, $data, $seconds = 3600): bool
+    {
+        if ($seconds) {
             $content['data'] = $data;
             $content['end_time'] = time() + $seconds;
-            if(file_put_contents(CACHE . '/' . md5($key) . '.txt', serialize($content))){
+            if (file_put_contents(CACHE . '/' . md5($key) . '.txt', serialize($content))) {
                 return true;
             }
         }
         return false;
     }
-
-    public function get($key){
+    
+    /**
+     * Get cache data
+     * 
+     * @param string $key
+     * @return boolean
+     */
+    public function get($key): bool
+    {
         $file = CACHE . '/' . md5($key) . '.txt';
-        if(file_exists($file)){
+        if (file_exists($file)) {
             $content = unserialize(file_get_contents($file));
-            if(time() <= $content['end_time']){
+            if (time() <= $content['end_time']) {
                 return $content;
             }
             unlink($file);
         }
         return false;
     }
-
-    public function delete($key){
+    
+    /**
+     * Delete cache
+     * 
+     * @param string $key
+     */
+    public function delete($key): void
+    {
         $file = CACHE . '/' . md5($key) . '.txt';
-        if(file_exists($file)){
+        if (file_exists($file)) {
             unlink($file);
         }
     }

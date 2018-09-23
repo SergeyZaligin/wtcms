@@ -82,30 +82,30 @@ class Pagination
         $page2right = null; // вторая страница справа
         $page1right = null; // первая страница справа
 
-        if( $this->currentPage > 1 ){
+        if ( $this->currentPage > 1 ) {
             $back = "<li><a class='nav-link' href='{$this->uri}page=" .($this->currentPage - 1). "'>&lt;</a></li>";
         }
 
-        if( $this->currentPage < $this->countPages ){
+        if ( $this->currentPage < $this->countPages ) {
             $forward = "<li><a class='nav-link' href='{$this->uri}page=" .($this->currentPage + 1). "'>&gt;</a></li>";
         }
 
-        if( $this->currentPage > 3 ){
+        if ( $this->currentPage > 3 ) {
             $startpage = "<li><a class='nav-link' href='{$this->uri}page=1'>&laquo;</a></li>";
         }
-        if( $this->currentPage < ($this->countPages - 2) ){
+        if ( $this->currentPage < ($this->countPages - 2) ) {
             $endpage = "<li><a class='nav-link' href='{$this->uri}page={$this->countPages}'>&raquo;</a></li>";
         }
-        if( $this->currentPage - 2 > 0 ){
+        if ( $this->currentPage - 2 > 0 ) {
             $page2left = "<li><a class='nav-link' href='{$this->uri}page=" .($this->currentPage-2). "'>" .($this->currentPage - 2). "</a></li>";
         }
-        if( $this->currentPage - 1 > 0 ){
+        if ( $this->currentPage - 1 > 0 ) {
             $page1left = "<li><a class='nav-link' href='{$this->uri}page=" .($this->currentPage-1). "'>" .($this->currentPage-1). "</a></li>";
         }
-        if( $this->currentPage + 1 <= $this->countPages ){
+        if ( $this->currentPage + 1 <= $this->countPages ) {
             $page1right = "<li><a class='nav-link' href='{$this->uri}page=" .($this->currentPage + 1). "'>" .($this->currentPage+1). "</a></li>";
         }
-        if( $this->currentPage + 2 <= $this->countPages ){
+        if ( $this->currentPage + 2 <= $this->countPages ) {
             $page2right = "<li><a class='nav-link' href='{$this->uri}page=" .($this->currentPage + 2). "'>" .($this->currentPage + 2). "</a></li>";
         }
 
@@ -130,8 +130,8 @@ class Pagination
      */
     public function getCurrentPage(int $page): int
     {
-        if(!$page || $page < 1) $page = 1;
-        if($page > $this->countPages) $page = $this->countPages;
+        if (!$page || $page < 1) $page = 1;
+        if ($page > $this->countPages) $page = $this->countPages;
         return $page;
     }
     
