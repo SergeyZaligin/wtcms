@@ -7,4 +7,4 @@ $app = new \engine\App();
 
 //debug(engine\Router::getRoutes());
 
-throw new Exception('404', 400);
+//throw new Exception('404', 400);
