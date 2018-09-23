@@ -56,7 +56,7 @@ class View
         'description' => '',
         'keywords' => ''
     ];
-    
+    public $scripts = [];
     /**
      * Constructor view
      * 
@@ -102,6 +102,11 @@ class View
         if (false !== $this->layout) {
             $layoutFile = APP . '/views/layouts/' . $this->layout . '.php';
             if (is_file($layoutFile)) {
+                $content = $this->getScript($content);
+                $scripts = [];
+                if (!empty($this->scripts)) {
+                    $scripts = $this->scripts[0];
+                }
                 require_once $layoutFile;
             } else {
                 throw new \Exception("Не найден вид {$layoutFile}", 500);
@@ -125,5 +130,17 @@ class View
         
         return $output;
     }
-
+    
+    protected function getScript($content)
+    {
+        $pattern = "#<script.*?>.*?</script>#si";
+        
+        preg_match_all($pattern, $content, $this->scripts);
+        
+        if(!empty($this->scripts)){
+            $content = preg_replace($pattern, '', $content);
+        }
+        
+        return $content;
+    }
 }

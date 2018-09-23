@@ -108,4 +108,17 @@ abstract class Controller
         $this->meta['description'] = $description;
         $this->meta['keywords'] = $keywords;
     }
+    
+    public function isAjax() {
+        return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest';
+    }
+    /**
+     * for ajax
+     * @param type $view
+     * @param type $vars
+     */
+    public function loadView($view, $vars = []){
+        extract($vars);
+        require APP . "/views/{$this->route['controller']}/{$view}.php";
+    }
 }

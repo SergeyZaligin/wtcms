@@ -1,3 +1,4 @@
 vendor
+tmp/cache
 node_modules
 nbproject/
